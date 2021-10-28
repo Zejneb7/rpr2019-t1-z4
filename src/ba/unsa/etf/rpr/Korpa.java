@@ -1,13 +1,14 @@
 package ba.unsa.etf.rpr;
 
 public class Korpa {
-    private Artikl[] artikli; // = new Artikl[50];
+    private Artikl[] artikli = new Artikl[50];
 
-    /*public Korpa() {
+    public Korpa() {
         for (int i = 0; i < 50; i++) {
             artikli[i] = new Artikl();
         }
-    }*/
+        //artikli = new Artikl[50];
+    }
 
     public Korpa(Artikl[] artikli) {
         for (int i = 0; i < 50; i++) {

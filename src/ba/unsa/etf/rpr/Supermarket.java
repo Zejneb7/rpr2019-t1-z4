@@ -1,13 +1,14 @@
 package ba.unsa.etf.rpr;
 
 public class Supermarket {
-    private Artikl[] artikli; // = new Artikl[1000];
+    private Artikl[] artikli = new Artikl[1000];
 
-    /*public Supermarket() {
+    public Supermarket() {
         for (int i = 0; i < 1000; i++) {
             artikli[i] = new Artikl();
         }
-    }*/
+        //artikli = new Artikl[1000];
+    }
 
     public Artikl[] getArtikli () {
         return artikli;
