@@ -15,28 +15,27 @@ public class Korpa {
         return suma;
     }
 
-    public boolean dodajArtikl (Artikl novi_artikl) {
+    public boolean dodajArtikl (Artikl artiklKojiSeDodaje) {
         for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] == null) {
-                artikli[i] = new Artikl(novi_artikl.getNaziv(), novi_artikl.getCijena(), novi_artikl.getKod());
+                artikli[i] = new Artikl(artiklKojiSeDodaje.getNaziv(), artiklKojiSeDodaje.getCijena(), artiklKojiSeDodaje.getKod());
                 return true;
             }
         }
         return false;
     }
 
-    public Artikl izbaciArtiklSaKodom(String kod_artikla) {
-        Artikl nas_artikl = new Artikl();
+    public Artikl izbaciArtiklSaKodom(String kodArtiklaKojiSeIzbacuje) {
         for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] != null) {
-                if (kod_artikla.equals(artikli[i].getKod())) {
-                    nas_artikl = artikli[i];
+                if (kodArtiklaKojiSeIzbacuje.equals(artikli[i].getKod())) {
+                    Artikl artiklKojiSeIzbacuje = new Artikl(artikli[i].getNaziv(), artikli[i].getCijena(), artikli[i].getKod());
                     artikli[i] = null;
-                    break;
+                    return artiklKojiSeIzbacuje;
                 }
             }
         }
-        return nas_artikl;
+        return null;
     }
 
     public Artikl[] getArtikli() {

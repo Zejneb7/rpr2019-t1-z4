@@ -5,12 +5,6 @@ public class Artikl {
     private int cijena;
     private String kod;
 
-    public Artikl() {
-        this.naziv = "";
-        this.cijena = 0;
-        this.kod = "";
-    }
-
     public Artikl(String naziv, int cijena, String kod) {
         this.naziv = naziv;
         this.cijena = cijena;
