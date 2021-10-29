@@ -12,7 +12,7 @@ public class Supermarket {
     }
 
     public void dodajArtikl(Artikl novi_artikl) {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] == null) {
                 artikli[i] = novi_artikl;
                 break;
@@ -22,7 +22,7 @@ public class Supermarket {
 
     public Artikl izbaciArtiklSaKodom(String kod_artikla) {
         Artikl nas_artikl = new Artikl();
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] != null) {
                 if (kod_artikla.equals(artikli[i].getKod())) {
                     nas_artikl = artikli[i];
