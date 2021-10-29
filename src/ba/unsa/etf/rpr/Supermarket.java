@@ -1,13 +1,10 @@
 package ba.unsa.etf.rpr;
 
 public class Supermarket {
-    private Artikl[] artikli = new Artikl[1000];
+    private Artikl[] artikli;
 
     public Supermarket() {
-        for (int i = 0; i < 1000; i++) {
-            artikli[i] = new Artikl();
-        }
-        //artikli = new Artikl[1000];
+        artikli = new Artikl[1000];
     }
 
     public Artikl[] getArtikli () {
@@ -16,19 +13,22 @@ public class Supermarket {
 
     public void dodajArtikl(Artikl novi_artikl) {
         for (int i = 0; i < 1000; i++) {
-            if ("".equals(artikli[i].getKod())) {
+            if (artikli[i] == null) {
                 artikli[i] = novi_artikl;
                 break;
             }
         }
-        //if (i == 1000) System.out.println("Supermarket je pun");
     }
+
     public Artikl izbaciArtiklSaKodom(String kod_artikla) {
         Artikl nas_artikl = new Artikl();
         for (int i = 0; i < 1000; i++) {
-            if (kod_artikla.equals(artikli[i].getKod())) {
-                nas_artikl = artikli[i];
-                artikli[i] = new Artikl();
+            if (artikli[i] != null) {
+                if (kod_artikla.equals(artikli[i].getKod())) {
+                    nas_artikl = artikli[i];
+                    artikli[i] = null;
+                    break;
+                }
             }
         }
         return nas_artikl;
