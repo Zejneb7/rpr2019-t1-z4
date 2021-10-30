@@ -21,7 +21,7 @@ public class Supermarket {
         for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] != null) {
                 if (kodArtiklaKojiSeIzbacuje.equals(artikli[i].getKod())) {
-                    Artikl artiklKojiSeIzbacuje = new Artikl(artikli[i].getNaziv(), artikli[i].getCijena(), artikli[i].getKod());
+                    Artikl artiklKojiSeIzbacuje = artikli[i];
                     artikli[i] = null;
                     return artiklKojiSeIzbacuje;
                 }

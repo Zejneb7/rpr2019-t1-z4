@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75de4676-5aa0-4bb1-8f1d-94ba71e9b498" name="Changes" comment="izbacen konstruktor bez parametara klase Artikl - promjena u klasama Korpa i Supermarket tako da se isti vise ne koristi; preimenovane varijable u skladu sa CamelCase notacijom">
+    <list default="true" id="75de4676-5aa0-4bb1-8f1d-94ba71e9b498" name="Changes" comment="izbacen konstruktor bez parametara">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635540696417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="izbacen konstruktor bez parametara">
+      <created>1635553485770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635553485770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
     <MESSAGE value="niz.length umjesto broja" />
     <MESSAGE value="niz.length umjesto broja i rasponska for petlja" />
     <MESSAGE value="izbacen konstruktor bez parametara klase Artikl - promjena u klasama Korpa i Supermarket tako da se isti vise ne koristi; preimenovane varijable u skladu sa CamelCase notacijom" />
-    <option name="LAST_COMMIT_MESSAGE" value="izbacen konstruktor bez parametara klase Artikl - promjena u klasama Korpa i Supermarket tako da se isti vise ne koristi; preimenovane varijable u skladu sa CamelCase notacijom" />
+    <MESSAGE value="izbacen konstruktor bez parametara" />
+    <option name="LAST_COMMIT_MESSAGE" value="izbacen konstruktor bez parametara" />
   </component>
 </project>
