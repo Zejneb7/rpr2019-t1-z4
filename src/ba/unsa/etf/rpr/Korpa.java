@@ -1,24 +1,17 @@
 package ba.unsa.etf.rpr;
 
 public class Korpa {
-    private Artikl[] artikli;
 
-    public Korpa() {
-        artikli = new Artikl[50];
+    private Artikl[] artikli = new Artikl[50];
+
+    public Artikl[] getArtikli() {
+        return artikli;
     }
 
-    public int dajUkupnuCijenuArtikala() {
-        int suma = 0;
-        for (Artikl artikl : artikli) {
-            if (artikl != null) suma = suma + artikl.getCijena();
-        }
-        return suma;
-    }
-
-    public boolean dodajArtikl (Artikl artiklKojiSeDodaje) {
+    public boolean dodajArtikl(Artikl artiklKojiSeDodaje) {
         for (int i = 0; i < artikli.length; i++) {
             if (artikli[i] == null) {
-                artikli[i] = new Artikl(artiklKojiSeDodaje.getNaziv(), artiklKojiSeDodaje.getCijena(), artiklKojiSeDodaje.getKod());
+                artikli[i] = artiklKojiSeDodaje;
                 return true;
             }
         }
@@ -38,7 +31,11 @@ public class Korpa {
         return null;
     }
 
-    public Artikl[] getArtikli() {
-        return artikli;
+    public int dajUkupnuCijenuArtikala() {
+        int ukupnaCijenaArtikala = 0;
+        for (Artikl artikl : artikli) {
+            if (artikl != null) ukupnaCijenaArtikala = ukupnaCijenaArtikala + artikl.getCijena();
+        }
+        return ukupnaCijenaArtikala;
     }
 }
