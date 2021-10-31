@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75de4676-5aa0-4bb1-8f1d-94ba71e9b498" name="Changes" comment="artikl koji se izbacuje">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-    </list>
+    <list default="true" id="75de4676-5aa0-4bb1-8f1d-94ba71e9b498" name="Changes" comment="dodani testovi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635554061824</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dodani testovi">
+      <created>1635705845440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635705845440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,9 +154,10 @@
     <MESSAGE value="izbacen konstruktor bez parametara klase Artikl - promjena u klasama Korpa i Supermarket tako da se isti vise ne koristi; preimenovane varijable u skladu sa CamelCase notacijom" />
     <MESSAGE value="izbacen konstruktor bez parametara" />
     <MESSAGE value="artikl koji se izbacuje" />
-    <option name="LAST_COMMIT_MESSAGE" value="artikl koji se izbacuje" />
+    <MESSAGE value="dodani testovi" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodani testovi" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1635703597075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1635705755455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
